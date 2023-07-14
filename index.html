@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Günlük Uygulaması</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Günlük Uygulaması</h1>
+        <div id="loginContainer">
+            <h2></h2>
+            <form id="loginForm">
+                <input type="text" id="usernameInput" placeholder="Kullanıcı Adı" required>
+                <input type="password" id="passwordInput" placeholder="Şifre" required>
+                <button type="submit">Giriş</button>
+            </form>
+        </div>
+        <div id="entriesContainer" style="display: none;">
+            <h2>Günlük Yazma</h2>
+            <form id="entryForm">
+                <input type="text" id="titleInput" placeholder="Başlık" required>
+                <textarea id="entryInput" placeholder="Günlük yazınız" required></textarea>
+                <button type="submit">Kaydet</button>
+            </form>
+            <div id="entriesList"></div>
+        </div>
+        <div id="viewEntryContainer" style="display: none;">
+            <h2>Günlük Görüntüleme</h2>
+            <div id="viewEntryContent"></div>
+            <button id="backButton">Geri</button>
+            <button id="deleteButton">Sil</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

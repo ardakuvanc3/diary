@@ -1,0 +1,98 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Sacramento;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.entry {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.entry h3 {
+    margin: 0;
+}
+
+.entry p {
+    margin: 10px 0 0;
+}
+
+.delete-btn {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+#viewEntryContainer {
+    margin-top: 20px;
+}
+
+#viewEntryContent {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#backButton {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#backButton:hover {
+    background-color: #555;
+}
+
+#deleteButton {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton:hover {
+    background-color: #ff3333;
+}
